@@ -42,6 +42,8 @@ class SomeListView extends StatelessWidget {
 }
 ```
 
+## Documentation
+
 | Parameters         | Value                  | Required  | Docs                                                                        |
 | ------------------ |----------------------- | :-------: | --------------------------------------------------------------------------- |
 | `label`            | `String`               |    Yes    | Controller to have access to the open/close/toggle function of the drawer   |
