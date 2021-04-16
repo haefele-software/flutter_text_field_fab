@@ -14,7 +14,11 @@ dependencies:
 ```
 
 ## Example
-
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/haefele-software/flutter_text_field_fab/main/assets/example.gif"></td>    
+  </tr>
+</table>
 
 ## Simple Usage
 
