@@ -46,7 +46,8 @@ class SomeListView extends StatelessWidget {
 
 | Parameters         | Value                  | Required  | Docs                                                                        |
 | ------------------ |----------------------- | :-------: | --------------------------------------------------------------------------- |
-| `label`            | `String`               |    Yes    | Controller to have access to the open/close/toggle function of the drawer   |
+| `label`            | `String`               |    Yes    | Label to be the placeholder for the `TextField`
+| `icon`             | `Icon`                 |    Yes    | Icon for the FAB |
 | `backgroundColor`  | `Color`                |    No     | The background color of the FAB (defaults to white)                         |
 | `iconColor`        | `Color`                |    No     | The color of the of the icon (defaults to black)                            |
 | `onChange`         | `Function`             |    No     | `onChange` handler on keystroke input                                       |
