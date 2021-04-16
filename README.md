@@ -17,7 +17,6 @@ dependencies:
 ## Features
 
 * Simple sliding animation
-* `onChange()`, `onSubmit` and `onClear()`
 * Custom coloring
 
 ## Example
@@ -42,3 +41,12 @@ class SomeListView extends StatelessWidget {
     }
 }
 ```
+
+| Parameters         | Value                  | Required  | Docs                                                                        |
+| ------------------ |----------------------- | :-------: | --------------------------------------------------------------------------- |
+| `label`            | `String`               |    Yes    | Controller to have access to the open/close/toggle function of the drawer   |
+| `backgroundColor`  | `Color`                |    No     | The background color of the FAB (defaults to white)                         |
+| `iconColor`        | `Color`                |    No     | The color of the of the icon (defaults to black)                            |
+| `onChange`         | `Function`             |    No     | `onChange` handler on keystroke input                                       |
+| `onSubmit`         | `Function`             |    No     | `onSubmit` handler input submission                                         |
+| `onClear`          | `Function`             |    No     | `onClear` handler for when the input is closed                              |
