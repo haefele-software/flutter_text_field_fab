@@ -13,6 +13,9 @@ dependencies:
   flutter_text_field_fab: <last-version>
 ```
 
+## Example
+
+
 ## Simple Usage
 
 ```dart
