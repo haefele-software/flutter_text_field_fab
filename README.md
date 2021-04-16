@@ -16,6 +16,9 @@ dependencies:
 ## Simple Usage
 
 ```dart
+import 'package:flutter/material.dart';
+import 'package:flutter_text_field_fab/flutter_text_field_fab.dart';
+
 class SomeListView extends StatelessWidget {
     @override
     Widget build(BuildContext context) {
