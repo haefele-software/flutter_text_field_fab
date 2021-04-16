@@ -1,6 +1,6 @@
 name: flutter_text_field_fab
 description: A new Flutter package project.
-version: 0.0.2
+version: 0.0.3
 homepage: "https://www.haefelesoftware.com/"
 
 environment:
@@ -16,3 +16,14 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.haefelesoftware.fluttertextfieldfab
+        pluginClass: TextFieldFloatingActionButton
+      ios:
+        pluginClass: TextFieldFloatingActionButton
+      macos:
+        pluginClass: TextFieldFloatingActionButton
+      web:
+        pluginClass: TextFieldFloatingActionButton

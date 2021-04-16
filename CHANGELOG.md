@@ -1,3 +1,7 @@
+## [0.0.3] - 16/04/2021
+
+* Added supported packages
+
 ## [0.0.2] - 16/04/2021
 
 * Added `backgroundColor` optional parameter with a default value of `Colors.white`
