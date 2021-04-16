@@ -12,3 +12,20 @@ dependencies:
     sdk: flutter
   flutter_text_field_fab: <last-version>
 ```
+
+## Simple Usage
+
+```dart
+class SomeListView extends StatelessWidget {
+    @override
+    Widget build(BuildContext context) {
+        return Scaffold(
+            floatingActionButton: TextFieldFloatingActionButton(
+                'Search...',
+                onChange: (String query) => model.filterList(query),
+                onClear: () => model.clearList(''),
+            ),
+            body: Center('Why hello there'));
+    }
+}
+```
