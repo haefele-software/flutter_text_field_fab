@@ -16,14 +16,3 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
-  plugin:
-    platforms:
-      android:
-        package: com.haefelesoftware.fluttertextfieldfab
-        pluginClass: TextFieldFloatingActionButton
-      ios:
-        pluginClass: TextFieldFloatingActionButton
-      macos:
-        pluginClass: TextFieldFloatingActionButton
-      web:
-        pluginClass: TextFieldFloatingActionButton
