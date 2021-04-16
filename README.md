@@ -25,10 +25,10 @@ class SomeListView extends StatelessWidget {
         return Scaffold(
             floatingActionButton: TextFieldFloatingActionButton(
                 'Search...',
-                onChange: (String query) => model.filterList(query),
-                onClear: () => model.clearList(''),
+                onChange: (String query) => filterList(query),
+                onClear: () => clearList(),
             ),
-            body: Center('Why hello there'));
+            body: ...);
     }
 }
 ```
