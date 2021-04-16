@@ -14,6 +14,12 @@ dependencies:
   flutter_text_field_fab: <last-version>
 ```
 
+## Features
+
+* Simple sliding animation
+* `onChange()`, `onSubmit` and `onClear()`
+* Custom coloring
+
 ## Example
 <img src="https://raw.githubusercontent.com/haefele-software/flutter_text_field_fab/main/assets/flutter_text_field_fab.gif">
 
