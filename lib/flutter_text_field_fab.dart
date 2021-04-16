@@ -2,12 +2,18 @@ import 'package:flutter/material.dart';
 
 class TextFieldFloatingActionButton extends StatefulWidget {
   final String label;
+  final Color backgroundColor;
+  final Color iconColor;
   final void Function(String) onChange;
   final void Function(String) onSubmit;
   final Function onClear;
 
   TextFieldFloatingActionButton(this.label,
-      {this.onChange, this.onSubmit, this.onClear});
+      {this.onChange,
+      this.onSubmit,
+      this.onClear,
+      this.backgroundColor,
+      this.iconColor});
 
   @override
   _TextFieldFloatingActionButtonState createState() =>
@@ -18,6 +24,8 @@ class TextFieldFloatingActionButton extends StatefulWidget {
 class _TextFieldFloatingActionButtonState
     extends State<TextFieldFloatingActionButton> {
   final String label;
+  final Color backgroundColor;
+  final Color iconColor;
   final void Function(String) onChange;
   final void Function(String) onSubmit;
   final Function onClear;
@@ -25,7 +33,11 @@ class _TextFieldFloatingActionButtonState
   bool folded = true;
 
   _TextFieldFloatingActionButtonState(this.label,
-      {this.onChange, this.onSubmit, this.onClear});
+      {this.onChange,
+      this.onSubmit,
+      this.onClear,
+      this.backgroundColor = Colors.white,
+      this.iconColor = Colors.black});
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +47,7 @@ class _TextFieldFloatingActionButtonState
         height: 56,
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(32),
-            color: Colors.white,
+            color: backgroundColor,
             boxShadow: kElevationToShadow[6]),
         child: Row(
           children: [
@@ -46,8 +58,7 @@ class _TextFieldFloatingActionButtonState
                         ? TextField(
                             decoration: InputDecoration(
                                 hintText: label,
-                                hintStyle: TextStyle(
-                                    color: Theme.of(context).accentColor),
+                                hintStyle: TextStyle(color: iconColor),
                                 border: InputBorder.none),
                             onChanged: (String query) => onChange(query),
                           )
@@ -66,7 +77,7 @@ class _TextFieldFloatingActionButtonState
                     padding: EdgeInsets.all(16.0),
                     child: Icon(
                       folded ? Icons.search : Icons.close,
-                      color: Theme.of(context).accentColor,
+                      color: iconColor,
                     ),
                   ),
                   onTap: () {
