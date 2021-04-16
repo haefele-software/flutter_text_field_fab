@@ -3,6 +3,7 @@
 A simple Flutter widget that makes turning a FAB into a text field easy.
 
 [![pub.dev](https://img.shields.io/pub/v/flutter_text_field_fab?include_prereleases)](https://pub.dev/packages/flutter_text_field_fab)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
 ## Installation
 
