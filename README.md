@@ -10,5 +10,5 @@ A simple Flutter package that makes turning a FAB into a text field easy.
 dependencies:
   flutter:
     sdk: flutter
-  flutter_google_places_hoc081098: <last-version>
+  flutter_text_field_fab: <last-version>
 ```
