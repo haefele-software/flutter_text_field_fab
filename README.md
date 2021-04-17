@@ -35,6 +35,7 @@ class SomeListView extends StatelessWidget {
         return Scaffold(
             floatingActionButton: TextFieldFloatingActionButton(
                 'Search...',
+                Icons.gamepad,
                 onChange: (String query) => filterList(query),
                 onClear: () => clearList(),
             ),

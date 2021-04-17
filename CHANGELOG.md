@@ -1,3 +1,11 @@
+## [0.1.0] - 17/04/2021
+
+* Cleaned up code
+
+## [0.0.4] - 17/04/2021
+
+* Updated documentation
+
 ## [0.0.3] - 16/04/2021
 
 * Added `icon` required parameter for the button

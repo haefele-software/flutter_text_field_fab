@@ -1,12 +1,25 @@
 import 'package:flutter/material.dart';
 
 class TextFieldFloatingActionButton extends StatefulWidget {
+  // The placeholder label
   final String label;
+
+  // The icon to be used on the FAB
   final Icon icon;
+
+  // The background color of the FAB
   final Color backgroundColor;
+
+  // The color of the icon on the FAB
   final Color iconColor;
+
+  // A callback function for each time there is a change to the TextField's text
   final void Function(String) onChange;
+
+  // A callback function to return the current value of the TextField's text on submission
   final void Function(String) onSubmit;
+
+  // A function to handle operations that need to be performed when the TextField is cleared or closed
   final Function onClear;
 
   TextFieldFloatingActionButton(this.label, this.icon,
@@ -84,9 +97,7 @@ class _TextFieldFloatingActionButtonState
                   ),
                   onTap: () {
                     setState(() {
-                      if (!folded) {
-                        onClear();
-                      }
+                      if (!folded) onClear();
                       folded = !folded;
                     });
                   },

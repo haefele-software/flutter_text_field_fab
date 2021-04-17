@@ -1,6 +1,6 @@
 name: flutter_text_field_fab
 description: flutter_text_field_fab is a simple widget that allows you to turn a floating action button into a text field.
-version: 0.0.4
+version: 0.1.0
 homepage: "https://www.haefelesoftware.com/"
 
 environment:
