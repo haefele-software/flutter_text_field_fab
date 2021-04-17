@@ -16,7 +16,8 @@ dependencies:
 
 ## Features
 
-* Simple sliding animation
+* Simple slide animation
+* Custom icon
 * Custom coloring
 
 ## Example
