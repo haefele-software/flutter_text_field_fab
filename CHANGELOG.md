@@ -1,3 +1,11 @@
+## [0.1.2] - 17/04/2021
+
+* Adjust `icon` type from `Icon` to `IconData`
+
+## [0.1.1] - 17/04/2021
+
+* Added parameter documentations
+
 ## [0.1.0] - 17/04/2021
 
 * Cleaned up code
