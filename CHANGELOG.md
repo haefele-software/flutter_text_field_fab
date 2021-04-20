@@ -1,3 +1,7 @@
+## [0.1.3] - 20/04/2021
+
+* Fixed `icon` bug
+
 ## [0.1.2] - 17/04/2021
 
 * Adjust `icon` type from `Icon` to `IconData`
