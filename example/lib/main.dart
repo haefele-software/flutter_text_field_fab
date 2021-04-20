@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return Scaffold(
         floatingActionButton: TextFieldFloatingActionButton(
           'Search...',
-          Icons.gamepad,
+          Icon(Icons.gamepad),
           onChange: (String query) => print(query),
           onClear: () => print('I was cleared.'),
         ),

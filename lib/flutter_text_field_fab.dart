@@ -5,7 +5,7 @@ class TextFieldFloatingActionButton extends StatefulWidget {
   final String label;
 
   // The icon to be used on the FAB
-  final Icon icon;
+  final IconData icon;
 
   // The background color of the FAB
   final Color backgroundColor;
@@ -38,7 +38,7 @@ class TextFieldFloatingActionButton extends StatefulWidget {
 class _TextFieldFloatingActionButtonState
     extends State<TextFieldFloatingActionButton> {
   final String label;
-  final Icon icon;
+  final IconData icon;
   final Color backgroundColor;
   final Color iconColor;
   final void Function(String) onChange;
