@@ -76,6 +76,7 @@ class _TextFieldFloatingActionButtonState
                                 hintStyle: TextStyle(color: iconColor),
                                 border: InputBorder.none),
                             onChanged: (String query) => onChange(query),
+                            onSubmitted: (String query) => onSubmit(query),
                           )
                         : null)),
             Container(
